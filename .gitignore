@@ -1,0 +1,84 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.conda_env/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# --- Logs and coverage ---
+logs/
+*.log
+*.pot
+*.py,cover
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+nosetests.xml
+
+# --- IDE / Editors ---
+# PyCharm
+.idea/
+**.idea/
+# VSCode
+.vscode/
+# Others
+*.swp
+*.swo
+
+# --- Jupyter notebooks ---
+.ipynb_checkpoints/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment files ---
+.env
+*.env
+.env.*
+*.ini
+*.cfg
+*.toml
+*.yaml
+*.yml
+
+# --- Data files (optional) ---
+# Comment these out if you want to keep CSVs or other data in Git
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.parquet
+*.csv
+*.tsv
+*.h5
+*.feather
+
+# --- Mypy / Linting ---
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+ruff_cache/
+
+# --- Jupyter & IPython ---
+profile_default/
+ipython_config.py
+
+# --- Mac / OS ---
+.DS_Store
+.AppleDouble
+.LSOverride
